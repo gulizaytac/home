@@ -207,7 +207,7 @@
 			});
 
 	// Main.
-		var $main = $('#main');
+		var $main = $('.main');
 
 		// Thumbs.
 			$main.children('.thumb').each(function() {
@@ -226,7 +226,7 @@
 
 					// Set background.
 						$image.css('background-image', 'url(' + $image_img.attr('src') + ')');
-
+						
 					// Set background position.
 						if (x = $image_img.data('position'))
 							$image.css('background-position', x);

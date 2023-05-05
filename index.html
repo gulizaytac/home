@@ -48,396 +48,114 @@
         </nav>
       </header>
 
-
 	  <div class="container p-4  " style="  align-items: center; 
 	  text-align: center;justify-content: center;
 	  ">
-		<button onclick ="openPul()" type="button" class="me-2 mt-2 btn btn-outline-success">Anı Pulu</button>
-		<button onclick ="openGif()" type="button" class="me-2 mt-2 btn btn-outline-success">Gif-Hareketli projeler</button>
+    
+    <div onclick ="closeVideo()" id="videopopup">
+      <div class="videoInside">
+        <video id="myVideo" width="480"  controls>
+          <source src="scene.mp4" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+      </div>
+        </div>
+		<button onclick ="openPul()" type="button" class="me-2 mt-2 btn btn-outline-danger">Anı Pulu</button>
+		<button onclick ="openGif()" type="button" class="me-2 mt-2 btn btn-outline-danger">Gif-Hareketli projeler</button>
 		
-    <button onclick ="openftg()"type="button" class="me-2 mt-2 btn btn-outline-success">Fotoğraf</button>
-		<button onclick ="opentkv()"type="button" class="me-2 mt-2 btn btn-outline-success">Takvim</button>
-		<button onclick ="openWb()"type="button" class="me-2 mt-2 btn btn-outline-success">Web ve Dijital Tasarım</button>
-		<button onclick ="openAfs()"type="button" class="me-2 mt-2 btn btn-outline-success">Afiş </button>
+    <button onclick ="openftg()"type="button" class="me-2 mt-2 btn btn-outline-danger">Fotoğraf</button>
+		<button onclick ="opentkv()"type="button" class="me-2 mt-2 btn btn-outline-danger">Takvim</button>
+		<button onclick ="openWb()"type="button" class="me-2 mt-2 btn btn-outline-danger">Web ve Dijital Tasarım</button>
+		<button onclick ="openAfs()"type="button" class="me-2 mt-2 btn btn-outline-danger">Afiş </button>
 
   </div>
   <div id = "baslik"class="container p-4" >
   <h3>Henüz herhangi bir kategori seçilmedi. Çalışmalarımı görmek için lütfen yukarıdaki butonları kullan.</h3>
 </div>
+
       <!-- Main -->
-      <div id="main">
-		<article style = "display:none;" class="thumb g ">
-			<a href="images/fulls/dino.gif" class="image"
-			  ><img src="images/fulls/dino.gif" alt=""
-			/></a>
-			<h2></h2>
-			<p></p>
-		  </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/1.png" class="image"
-            ><img src="images/fulls/1.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/2.png" class="image"
-            ><img src="images/fulls/2.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/3.png" class="image"
-            ><img src="images/fulls/3.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/4.png" class="image"
-            ><img src="images/fulls/4.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/5.png" class="image"
-            ><img src="images/fulls/5.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/6.png" class="image"
-            ><img src="images/fulls/6.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/7.png" class="image"
-            ><img src="images/fulls/7.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/8.png" class="image"
-            ><img src="images/fulls/8.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/9.png" class="image"
-            ><img src="images/fulls/9.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/10.png" class="image"
-            ><img src="images/fulls/10.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/11.png" class="image"
-            ><img src="images/fulls/11.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/12.png" class="image"
-            ><img src="images/fulls/12.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/13.png" class="image"
-            ><img src="images/fulls/13.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/14.png" class="image"
-            ><img src="images/fulls/14.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/15.png" class="image"
-            ><img src="images/fulls/15.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/16.png" class="image"
-            ><img src="images/fulls/16.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/17.png" class="image"
-            ><img src="images/fulls/17.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/18.png" class="image"
-            ><img src="images/fulls/18.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/19.png" class="image"
-            ><img src="images/fulls/19.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/20.png" class="image"
-            ><img src="images/fulls/20.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/21.png" class="image"
-            ><img src="images/fulls/21.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb ftg">
-          <a href="images/fulls/22.png" class="image"
-            ><img src="images/fulls/22.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb tkv">
+
+      <div class ="main tkv" style = "display:none;">
+       
+        <article class="thumb ">
           <a href="images/fulls/23.png" class="image"
             ><img src="images/fulls/23.png" alt=""
           /></a>
           <h2></h2>
           <p></p>
         </article>
-        <article style = "display:none;" class="thumb tkv">
+        <article class="thumb ">
           <a href="images/fulls/24.png" class="image"
             ><img src="images/fulls/24.png" alt=""
           /></a>
           <h2></h2>
           <p></p>
         </article>
-        <article style = "display:none;" class="thumb wb">
-          <a href="images/fulls/25.png" class="image"
-            ><img src="images/fulls/25.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb wb">
-          <a href="images/fulls/26.png" class="image"
-            ><img src="images/fulls/26.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb wb">
-          <a href="images/fulls/27.png" class="image"
-            ><img src="images/fulls/27.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb wb">
-          <a href="images/fulls/28.png" class="image"
-            ><img src="images/fulls/28.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb wb">
-          <a href="images/fulls/29.png" class="image"
-            ><img src="images/fulls/29.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb wb">
-          <a href="images/fulls/30.png" class="image"
-            ><img src="images/fulls/30.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb wb">
-          <a href="images/fulls/31.png" class="image"
-            ><img src="images/fulls/31.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb wb">
-          <a href="images/fulls/32.png" class="image"
-            ><img src="images/fulls/32.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb wb">
-          <a href="images/fulls/33.png" class="image"
-            ><img src="images/fulls/33.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb wb">
-          <a href="images/fulls/34.png" class="image"
-            ><img src="images/fulls/34.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb wb">
-          <a href="images/fulls/35.png" class="image"
-            ><img src="images/fulls/35.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb wb">
-          <a href="images/fulls/36.png" class="image"
-            ><img src="images/fulls/36.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb tkv">
+        <article class="thumb ">
           <a href="images/fulls/37.png" class="image"
             ><img src="images/fulls/37.png" alt=""
           /></a>
           <h2></h2>
           <p></p>
         </article>
-        <article style = "display:none;" class="thumb tkv">
+        <article class="thumb ">
           <a href="images/fulls/38.png" class="image"
             ><img src="images/fulls/38.png" alt=""
           /></a>
           <h2></h2>
           <p></p>
         </article>
-        <article style = "display:none;" class="thumb afs">
-          <a href="images/fulls/39.png" class="image"
-            ><img src="images/fulls/39.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb afs">
-          <a href="images/fulls/40.png" class="image"
-            ><img src="images/fulls/40.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb pul">
-          <a href="images/fulls/41.png" class="image"
-            ><img src="images/fulls/41.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb afs">
-          <a href="images/fulls/42.png" class="image"
-            ><img src="images/fulls/42.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb  tkv">
+        <article class="thumb ">
           <a href="images/fulls/43.png" class="image"
             ><img src="images/fulls/43.png" alt=""
           /></a>
           <h2></h2>
           <p></p>
         </article>
-        <article style = "display:none;" class="thumb tkv">
+        <article class="thumb ">
           <a href="images/fulls/44.png" class="image"
             ><img src="images/fulls/44.png" alt=""
           /></a>
           <h2></h2>
           <p></p>
         </article>
-        <article style = "display:none;" class="thumb tkv">
+        <article class="thumb ">
           <a href="images/fulls/45.png" class="image"
             ><img src="images/fulls/45.png" alt=""
           /></a>
           <h2></h2>
           <p></p>
         </article>
-        <article style = "display:none;" class="thumb tkv">
+        <article class="thumb ">
           <a href="images/fulls/46.png" class="image"
             ><img src="images/fulls/46.png" alt=""
           /></a>
           <h2></h2>
           <p></p>
         </article>
-        <article style = "display:none;" class="thumb afs">
-          <a href="images/fulls/47.png" class="image"
-            ><img src="images/fulls/47.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb pul">
-          <a href="images/fulls/48.png" class="image"
-            ><img src="images/fulls/48.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb afs">
-          <a href="images/fulls/49.png" class="image"
-            ><img src="images/fulls/49.png" alt=""
-          /></a>
-          <h2></h2>
-          <p></p>
-        </article>
-        <article style = "display:none;" class="thumb tkv">
+        <article class="thumb ">
           <a href="images/fulls/50.png" class="image"
             ><img src="images/fulls/50.png" alt=""
           /></a>
           <h2></h2>
           <p></p>
         </article>
-        <article style = "display:none;" class="thumb tkv">
+        <article class="thumb ">
           <a href="images/fulls/51.png" class="image"
             ><img src="images/fulls/51.png" alt=""
           /></a>
           <h2></h2>
           <p></p>
         </article>
-        <article style = "display:none;" class="thumb tkv">
+        <article class="thumb ">
           <a href="images/fulls/52.png" class="image"
             ><img src="images/fulls/52.png" alt=""
           /></a>
           <h2></h2>
           <p></p>
         </article>
-        <article style = "display:none;" class="thumb tkv">
+        <article class="thumb ">
           <a href="images/fulls/53.png" class="image"
             ><img src="images/fulls/53.png" alt=""
           /></a>
@@ -445,6 +163,328 @@
           <p></p>
         </article>
       </div>
+
+      <div class ="main ftg" style = "display:none;">
+
+        <article class="thumb">
+          <a href="images/fulls/1.png" class="image"
+            ><img src="images/fulls/1.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/2.png" class="image"
+            ><img src="images/fulls/2.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/3.png" class="image"
+            ><img src="images/fulls/3.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/4.png" class="image"
+            ><img src="images/fulls/4.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/5.png" class="image"
+            ><img src="images/fulls/5.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/6.png" class="image"
+            ><img src="images/fulls/6.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/7.png" class="image"
+            ><img src="images/fulls/7.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/8.png" class="image"
+            ><img src="images/fulls/8.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/9.png" class="image"
+            ><img src="images/fulls/9.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/10.png" class="image"
+            ><img src="images/fulls/10.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/11.png" class="image"
+            ><img src="images/fulls/11.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/12.png" class="image"
+            ><img src="images/fulls/12.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/13.png" class="image"
+            ><img src="images/fulls/13.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/14.png" class="image"
+            ><img src="images/fulls/14.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/15.png" class="image"
+            ><img src="images/fulls/15.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/16.png" class="image"
+            ><img src="images/fulls/16.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/17.png" class="image"
+            ><img src="images/fulls/17.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/18.png" class="image"
+            ><img src="images/fulls/18.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/19.png" class="image"
+            ><img src="images/fulls/19.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/20.png" class="image"
+            ><img src="images/fulls/20.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/21.png" class="image"
+            ><img src="images/fulls/21.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+        <article class="thumb">
+          <a href="images/fulls/22.png" class="image"
+            ><img src="images/fulls/22.png" alt=""
+          /></a>
+          <h2></h2>
+          <p></p>
+        </article>
+      </div>
+
+ <div  class = "main g" style = "display:none;">
+		<article class="thumb ">
+			<a href="images/fulls/dino.gif" class="image"
+			  ><img src="images/fulls/dino.gif" alt=""
+			/></a>
+			<h2></h2>
+			<p></p>
+
+		  </article>
+      <article class="thumb ">
+        <div class="video" onclick ="openVideo()"
+          >
+          <img src="cadisplash.jpg" alt=""/>
+      </div>
+        <h2></h2>
+        <p></p>
+  
+        </article>
+     
+        
+      </div>
+
+       <div class ="main wb" style = "display:none;">
+  
+            <article class="thumb ">
+              <a href="images/fulls/25.png" class="image"
+                ><img src="images/fulls/25.png" alt=""
+              /></a>
+              <h2></h2>
+              <p></p>
+            </article>
+            <article class="thumb ">
+              <a href="images/fulls/26.png" class="image"
+                ><img src="images/fulls/26.png" alt=""
+              /></a>
+              <h2></h2>
+              <p></p>
+            </article>
+            <article class="thumb ">
+              <a href="images/fulls/27.png" class="image"
+                ><img src="images/fulls/27.png" alt=""
+              /></a>
+              <h2></h2>
+              <p></p>
+            </article>
+            <article class="thumb ">
+              <a href="images/fulls/28.png" class="image"
+                ><img src="images/fulls/28.png" alt=""
+              /></a>
+              <h2></h2>
+              <p></p>
+            </article>
+            <article class="thumb ">
+              <a href="images/fulls/29.png" class="image"
+                ><img src="images/fulls/29.png" alt=""
+              /></a>
+              <h2></h2>
+              <p></p>
+            </article>
+            <article class="thumb ">
+              <a href="images/fulls/30.png" class="image"
+                ><img src="images/fulls/30.png" alt=""
+              /></a>
+              <h2></h2>
+              <p></p>
+            </article>
+            <article class="thumb ">
+              <a href="images/fulls/31.png" class="image"
+                ><img src="images/fulls/31.png" alt=""
+              /></a>
+              <h2></h2>
+              <p></p>
+            </article>
+            <article class="thumb ">
+              <a href="images/fulls/32.png" class="image"
+                ><img src="images/fulls/32.png" alt=""
+              /></a>
+              <h2></h2>
+              <p></p>
+            </article>
+            <article class="thumb ">
+              <a href="images/fulls/33.png" class="image"
+                ><img src="images/fulls/33.png" alt=""
+              /></a>
+              <h2></h2>
+              <p></p>
+            </article>
+            <article class="thumb ">
+              <a href="images/fulls/34.png" class="image"
+                ><img src="images/fulls/34.png" alt=""
+              /></a>
+              <h2></h2>
+              <p></p>
+            </article>
+            <article class="thumb ">
+              <a href="images/fulls/35.png" class="image"
+                ><img src="images/fulls/35.png" alt=""
+              /></a>
+              <h2></h2>
+              <p></p>
+            </article>
+            <article class="thumb ">
+              <a href="images/fulls/36.png" class="image"
+                ><img src="images/fulls/36.png" alt=""
+              /></a>
+              <h2></h2>
+              <p></p>
+            </article>
+          </div>
+
+          <div  class ="main pul" style = "display:none;">
+                <article  class="thumb">
+                  <a href="images/fulls/41.png" class="image"
+                    ><img src="images/fulls/41.png" alt=""
+                  /></a>
+                  <h2></h2>
+                  <p></p>
+                </article>
+                <article class="thumb">
+                  <a href="images/fulls/48.png" class="image"
+                    ><img src="images/fulls/48.png" alt=""
+                  /></a>
+                  <h2></h2>
+                  <p></p>
+                </article>
+              </div>
+           <div  class ="main afs" style = "display:none;">
+                <article class="thumb ">
+                  <a href="images/fulls/39.png" class="image"
+                    ><img src="images/fulls/39.png" alt=""
+                  /></a>
+                  <h2></h2>
+                  <p></p>
+                </article>
+                <article class="thumb ">
+                  <a href="images/fulls/40.png" class="image"
+                    ><img src="images/fulls/40.png" alt=""
+                  /></a>
+                  <h2></h2>
+                  <p></p>
+                </article>
+                <article class="thumb ">
+                  <a href="images/fulls/42.png" class="image"
+                    ><img src="images/fulls/42.png" alt=""
+                  /></a>
+                  <h2></h2>
+                  <p></p>
+                </article>
+                <article class="thumb ">
+                  <a href="images/fulls/47.png" class="image"
+                    ><img src="images/fulls/47.png" alt=""
+                  /></a>
+                  <h2></h2>
+                  <p></p>
+                </article>
+                <article class="thumb ">
+                  <a href="images/fulls/49.png" class="image"
+                    ><img src="images/fulls/49.png" alt=""
+                  /></a>
+                  <h2></h2>
+                  <p></p>
+                </article>
+              </div>
 
       <!-- Footer -->
       <footer id="footer" class="panel">
@@ -545,12 +585,15 @@
 
     <style>
       .thumb:hover {
-        box-shadow:
-    0 0 30px 0 #fff,  /* inner white */
-    0 0 50px 0 #32ed51, /* middle magenta */
-    0 0 70px 0 #fff; 
+        /*box-shadow:
+    0 0 30px 0 #fff,  /* inner white 
+    0 0 50px 0 #32ed51, middle magenta 
+    0 0 70px 0 #fff;  /* */
+    -webkit-filter: drop-shadow(0 0 50px #dc3545);
+  filter: drop-shadow(0 0 15px #dc3545);
   z-index:5555555!important;
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
 }
 
     </style>
