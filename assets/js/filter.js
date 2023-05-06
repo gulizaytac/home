@@ -88,14 +88,12 @@ function openVideo() {
   console.log("openVideo");
   var hedef = document.getElementById("videopopup");
   hedef.style.display = "flex"
-  var myVideo = document.getElementById("myVideo");
-  myVideo.play();
+
 }
 
 function closeVideo() {
   console.log("openVideo");
   var hedef = document.getElementById("videopopup");
-  var myVideo = document.getElementById("myVideo");
-  myVideo.pause();
+
   hedef.style.display = "none"
 }
